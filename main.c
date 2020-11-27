@@ -1,18 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int i = 1;
-    float f = 1.5;
-    double d = 2.5;
-    char c = 'c';
+    char imie[20];
+    char nazwisko[20];
 
-    printf("Moje wartości zmiennych: i = %i, f = %.1f, d = %.1lf, c = %c\n",i,f,d,c);
+    scanf(" %s",&imie);
+    scanf(" %s",&nazwisko);
 
-    scanf("%i",&i);
-    scanf("%f",&f);
-    scanf("%lf",&d);
-    scanf(" %c",&c);
-
-    printf("Moje wartości zmiennych po wpisaniu liczb: i = %i, f = %.1f, d = %.1lf, c = %c \n",i,f,d,c);
+    printf("%s %s \n",nazwisko,imie);
     return 0;
 }

@@ -10,9 +10,9 @@ int main() {
 
     scanf("%i",&i);
     scanf("%f",&f);
-    scanf("%f",&d);
+    scanf("%lf",&d);
     scanf(" %c",&c);
 
-    printf("Moje wartości zmiennych po poprawie: i = %i, f = %.1f, d = %.1f, c = %c \n",i,f,d,c);
+    printf("Moje wartości zmiennych po poprawie: i = %i, f = %.1f, d = %.1lf, c = %c \n",i,f,d,c);
     return 0;
 }
